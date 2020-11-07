@@ -21,6 +21,6 @@ power.o: power.c myMath.h
 	$(CC) $(FLAGS) -c power.c
 main.o: main.c myMath.h
 	$(CC) $(FLAGS) -c main.c
-.PHONY: clean all
+.PHONY: clean all mymaths mymathd
 clean:
 	rm -f *.o *.a *.so mains maind
