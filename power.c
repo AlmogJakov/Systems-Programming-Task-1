@@ -3,6 +3,7 @@
 
 double Power(double x , int y)
 {
+    // Assumming the input is correct. (Improper input >> 0^0).
     double result = 1; // Initialize variable with neutral organ to multiply.
     if (x==0) return 0;
     else if (y==0) return 0;
